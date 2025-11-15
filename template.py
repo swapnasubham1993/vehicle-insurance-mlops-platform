@@ -67,6 +67,10 @@ list_of_files = [
     # Configuration YAMLs
     "config/model.yaml",
     "config/schema.yaml",
+
+    # Notebook for experimentation
+    "notebook/Vehicle_Insurance_Claim_Prediction.ipynb",
+    "notebook/MongoDB_Connection_Testing.ipynb",
 ]
 
 # Creating files & directories
