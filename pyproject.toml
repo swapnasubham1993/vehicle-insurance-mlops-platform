@@ -1,0 +1,11 @@
+[project]
+name = "src"
+version = "0.0.1"
+description = "End-to-end MLOps pipeline for intelligent vehicle insurance systems—covering data ingestion, model training, versioning, CI/CD automation, and scalable model serving."
+authors = [{name = "Swapnasubham Das", email = "swapnasubham1993@gmail.com"}]
+
+[tool.setuptools]
+packages = {find = {}}
+
+[tool.setuptools.dynamic]
+dependencies = {file = "requirements.txt"}
