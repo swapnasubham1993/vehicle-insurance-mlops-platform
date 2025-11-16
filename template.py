@@ -30,7 +30,7 @@ list_of_files = [
 
     # Data access layer
     f"{project_name}/data_access/__init__.py",
-    f"{project_name}/data_access/proj1_data.py",
+    f"{project_name}/data_access/vehicle_insurance.py",
 
     # Constant definitions
     f"{project_name}/constants/__init__.py",
